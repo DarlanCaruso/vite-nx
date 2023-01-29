@@ -1,6 +1,7 @@
 import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
+import { Menu } from '@vite-nx/menu';
 
 import App from './app/app';
 
@@ -11,6 +12,7 @@ root.render(
   <StrictMode>
     <BrowserRouter>
       <App />
+      <Menu></Menu>
     </BrowserRouter>
   </StrictMode>
 );
